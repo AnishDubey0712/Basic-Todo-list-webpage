@@ -1,0 +1,31 @@
+body{
+    justify-content: center;
+    text-align: center;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+/* Center the UL element horizontally and vertically */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 15vh; /*This centers the UL in the viewport */
+ }
+
+/* Style the UL and its list items */
+ul {
+    list-style: none;
+    /* background-color: #f2f2f2; */
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 15px;
+    max-height: 2000px;  /*Set your desired fixed height */
+    overflow-y: auto;
+}
+
+li {
+    margin: 5px;
+}
